@@ -10,6 +10,8 @@ public class Student extends User implements Talk{
         this.major = major;
     }
 
+
+
     @Override
     public void sayHello() {
         System.out.println("My name is " + this.getFullName() + " and my major is " + major + ".");
